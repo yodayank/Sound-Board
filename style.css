@@ -1,0 +1,68 @@
+#container{
+	display: flex;
+	width: 90%; 
+	margin-left: auto;
+	margin-right: right;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: row;
+	border-style: groove;
+	border-color: white;
+	border-width: 5px;
+	margin-left: 60px;
+	background-color:crimson;
+}
+
+#heading{
+	color: blue;
+	font-size: 32px;
+	text-align: center;
+	text-shadow: -1px 0 lime, 0 3px lime, 3px 0 lime, 0 -1px lime;
+}
+
+body{
+	background-image: url("neon.jpg");
+	background-position: center;
+	background-size: fit;
+}
+
+
+.image{
+	flex: 0 0 250px;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: aqua;
+}
+
+.image:hover{
+	box-shadow: 7px 8px 9px lime;
+}
+
+.image:active{
+	box-shadow: 7px 8px 9px aqua;
+}
+
+#one{
+	background-image: url("milk.jpg");
+	background-size: cover;
+}
+
+#two{
+	background-image: url("hope.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#three{
+	background-image: url("illuminati.jpg");
+	background-size: cover;
+}
+
+#four{
+	background-image: url("bad.png");
+	background-size: cover;
+	background-position: center;
+-;
